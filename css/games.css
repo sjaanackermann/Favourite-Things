@@ -3,11 +3,47 @@ body{
     background-color: lightgray;
     background-size: cover;
     width: auto;
-    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+a:link { 
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
+h1{
+    text-align: left;
+    padding-left: 50%;
+    font-size: 60px;
+}
+#subheading{
+    text-align: left;
+    padding-left: 50%;
+    max-width: 40%;
+    font-size: 20px;
+}
+section{
+    text-align: left;
+    padding-left: 50%;
+    max-width: 40%;
+}
+img{
+    max-width: 200px;
+    max-height: auto;
 }
 footer{
-    position: fixed;
     bottom: 0;
     color: white;
+    align-content: left;
 }
