@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/movies.jpg");
-    background-color: lightgray;
+    background-color: rgb(153, 29, 29);
     background-size: cover;
     width: auto;
     text-align: left;

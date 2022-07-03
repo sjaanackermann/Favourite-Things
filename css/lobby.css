@@ -1,6 +1,6 @@
         body{
             background-image: url("../images/lobby.jpg");
-            background-color: lightgray;
+            background-color: rgb(230, 130, 15);
             background-size: cover;
             width: auto;
             text-align: left;
