@@ -13,6 +13,42 @@
             text-align: left;
             font-family: Arial, Helvetica, sans-serif;
         }
+        .list{
+            list-style-type: none;
+            line-height: 3;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: black;
+            padding-left: 150px;
+            padding-top: 100px;
+        }
+        .li1{
+            list-style-image: url("../icons/book.png");
+            padding: 5px 10px;
+        }
+        .li2{
+            list-style-image: url("../icons/console.png");
+            padding: 5px 10px;
+        }
+        .li3{
+            list-style-image: url("../icons/cinema.png");
+            padding: 5px 10px;
+        }
+        a:link { 
+            color: black;
+            background-color: transparent;
+            text-decoration: none;        }
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+        a:active {
+            text-decoration: none;
+        }
         footer{
             position: fixed;
             bottom: 0;
@@ -28,15 +64,17 @@
             <a href="../index.html">Return to Homepage</a>
         </nav>
     </header>
+    <br>
     <main>
         <article>
-            <h1>...</h1>
-            <p>...</p>
+            <h1 style="font-size: 50px;">My Favourite Things:</h1>
+            <p style="font-size: 40px;">well... some of them...</p>
+            <br>
             <section>
-                <ul>
-                    <li><a href="../pages/books.html">Books</a></li>
-                    <li><a href="../pages/games.html">Games</a></li>
-                    <li><a href="../pages/movies.html">Movies</a></li>
+                <ul class="list">
+                    <li class="li1"><a href="../pages/books.html">Books</a></li>
+                    <li class="li2"><a href="../pages/games.html">Games</a></li>
+                    <li class="li3"><a href="../pages/movies.html">Movies</a></li>
                   </ul>
                 </section>
         </article>
